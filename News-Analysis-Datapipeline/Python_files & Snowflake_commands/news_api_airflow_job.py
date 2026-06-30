@@ -10,7 +10,7 @@ from airflow.providers.common.sql.operators.sql import SQLExecuteQueryOperator
 # =============================================================================
 # Default arguments for all tasks in the DAG
 default_args = {
-    'owner': 'growdataskills',           # DAG owner for monitoring and alerts
+    'owner': 'tanmay',                   # DAG owner for monitoring and alerts
     'depends_on_past': False,            # Don't wait for previous DAG runs to complete
     'email_on_failure': False,           # Disable email notifications on failure
     'email_on_retry': False,             # Disable email notifications on retry
